@@ -3,9 +3,12 @@
 public class Main {
     public static void main(String[] args) throws InterruptedException {
 
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 5; i++) {
             System.out.println("Hello and welcome!");
+            System.out.println("This is Jenkins Demo Project");
             Thread.sleep(2000);
         }
+
+
     }
 }
